@@ -5,4 +5,4 @@ build-image:
 	docker build -t ml_workshop .
 
 run-image:
-	docker run -d -p 8888:8888 -v nbs:/nbs ml_workshop
+	docker run -d -p 8888:8888 -v `pwd`:/nbs ml_workshop
