@@ -9,7 +9,7 @@ conda config --env --add channels conda-forge
 conda config --env --set channel_priority strict
 
 # install packages
-conda install pandas scikit-learn matplotlib notebook
+conda install pandas scikit-learn matplotlib notebook pyarrow
 
 # save conda environment
 conda env export > /config/environment_linux.yml
